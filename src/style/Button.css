@@ -1,0 +1,29 @@
+.number, .symbol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+    font-size: 1.25rem;
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+}
+
+.symbol{
+    background-color: #E74C3C;
+}
+
+.number{
+    background-color: #333849;
+}
+
+.symbol:hover{
+    background-color: #C0392B;
+}
+
+.number:hover{
+    background-color: #333849ac;
+}

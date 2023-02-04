@@ -1,0 +1,15 @@
+.panel{
+    background: #212532;
+    width: 325px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .75rem;
+    padding: .75rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.class{
+    grid-column: 1/5;
+}
+
